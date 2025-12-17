@@ -1,7 +1,4 @@
 
-## ✅ `requirements.txt`
-
-```txt
 streamlit==1.39.0
 pandas==2.2.3
 numpy==2.1.3
