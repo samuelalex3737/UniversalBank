@@ -575,7 +575,7 @@ def main():
 
     with st.sidebar:
         st.subheader("Dataset")
-        data_path = st.text_input("CSV file path", value="bank.xls", help="Path to the banking CSV file.")
+        data_path = st.text_input("CSV file path", value="bank.csv", help="Path to the banking CSV file.")
 
     try:
         df = load_data(data_path)
@@ -640,3 +640,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
